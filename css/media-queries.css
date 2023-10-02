@@ -75,10 +75,9 @@ section.sub-section{
     font-style: italic;
 }
 
-#social-media-links{
-    /*border: 2px solid red*/
-    /*im*/
-
+footer{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (min-width:992px) {
@@ -130,6 +129,11 @@ section.sub-section{
 
     .sub-section {
         flex-basis: 35%;
+    }
+
+    footer{
+        display: flex;
+        flex-grow: 2;
     }
 }
 
